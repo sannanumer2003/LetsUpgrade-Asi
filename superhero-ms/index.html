@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Superhero Management System</title>
+</head>
+
+<body>
+    <div class="modal" onclick="hideModal(event)">
+        <div class="modalchild">
+            <img src="images/logo.png" alt="" width="100" height="100" class="inner-img">
+            <h1 class="inner-main-heading">Microsoft Superhero Management System (Update Field)</h1>
+            <div class="inner-form">
+                <form>
+                    <input type="text" id="inner-name" placeholder="Name" required/>
+                    <input type="number" id="inner-age" placeholder="Age" required/>
+                    <input type="text" id="inner-planet" placeholder="Planet" required/>
+                    <input type="text" id="inner-height" placeholder="Height" required/>
+                    <button id="inner-btn" type="submit" onclick="updateData(event)">Update Field</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="system">
+        <img src="images/logo.png" alt="" width="100" height="100">
+        <h1 class="main-heading">Microsoft Superhero Management System (MSMS)</h1>
+        <div class="form">
+            <form>
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="number" id="age" placeholder="Age" required />
+                <input type="text" id="planet" placeholder="Planet" required />
+                <input type="text" id="height" placeholder="Height" required />
+                <button id="btn" type="submit" onclick="addData(event)">Add Superhero</button>
+            </form>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Start Searching Here" id="search" onkeyup="searchByName()" />
+        </div>
+        <table id="table" border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Planet</th>
+                    <th>Height</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

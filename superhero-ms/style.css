@@ -1,0 +1,124 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0px; */
+}
+body{
+    margin: 0px;
+}
+.system{
+    background-color: lightcyan;
+    height: auto;
+    padding: 50px;
+}
+#table{
+    width: 80%;
+    border-radius: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+}
+tr{
+    text-align: center;
+}
+.form{
+    margin-bottom: 10px;
+}
+.form input{
+    padding: 7px;
+    /* outline:none; */
+    font-size: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.form #btn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#delButton{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+#delButton:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#updateButton{
+    color: white;
+    background-color: rgb(52, 184, 52);
+    border: 1px solid rgb(52, 184, 52);
+    border-radius: 2px;
+}
+#updateButton:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.main-heading{
+    margin-top: 0px;
+    font-weight: 400;
+}
+.modal{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: fixed;
+    display: none;
+}
+.modalchild{
+    width: 70%;
+    background-color: white;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.inner-img{
+    position: relative;
+    bottom: 0px;
+    left: 30px;
+}
+.inner-main-heading{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.inner-form{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.inner-form input{
+    padding: 7px;
+    /* outline:none; */
+    font-size: 15px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.inner-form #inner-btn{
+    padding: 6px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.inner-form #inner-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
